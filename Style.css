@@ -1,0 +1,84 @@
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.main{
+    height:auto;
+    max-height:300px;
+    width:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    box-shadow: 0 0 10px black;
+    border-radius:10px;
+    overflow-y: auto;
+    padding:10px;
+}
+.main::-webkit-scrollbar{
+    width:5px;
+}
+.main::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background-color:grey;
+
+}
+.main2{
+    height:40px;
+    width:150px;
+    background-color:lightblue;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.main3{
+    height:40px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin:5px;
+
+}
+.main1{
+    height:50px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+.text{
+    height:35px;
+    width:60%;
+    border:1px solid black;
+    border-radius:10px;
+}
+.add{
+    height:40px;
+    width:80px;
+    background-color:rgb(4, 66, 87);
+    color:white;
+    border-radius:10px;
+
+}
+.add:hover{
+    background-color:blue;
+}
+.delete-btn{
+    height:30px;
+    width:80px;
+    border-radius:10px;
+    background-color:red;
+    color:white;
+}
+.task-text{
+    font-size:20px;
+    text-align:center;
+
+}
